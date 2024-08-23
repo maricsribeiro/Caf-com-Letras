@@ -34,27 +34,16 @@ Resumo. .
 
 1.1 Contextualização
 
-Competição com grandes redes e dificuldade de gerenciar estoque e vendas localmente.
+    O mercado editorial, embora tenha passado por períodos difíceis nos últimos anos, vem em uma crescente no período pós-pandemia. De acordo com o Sindicato Nacional dos Editores de Livros, o faturamento do setor ultrapassou 2,5 bilhões de 2021 a 2022, com um aumento de 8,33%. Destaca-se que, uma parte significativa desse crescimento pode ser atribuída às vendas realizadas por meio de lojas online. Durante a pandemia, as vendas online se tornaram uma alternativa fundamental para o setor, e muitas livrarias passaram a focar seus esforços no e-commerce para alcançar o público, compensando, assim, as perdas nas vendas físicas.
 
-1.1.1 Pesquisas
+    Nesse contexto, a Livraria Café com Letras é uma livraria independente localizada no centro de uma cidade de médio porte. Fundada há mais de duas décadas, a livraria sempre foi um ponto de encontro para leitores apaixonados e um espaço cultural que promove eventos literários, clubes de leitura e lançamentos de livros de autores locais, estabelecendo-se como um verdadeiro espaço de comunidade. No entanto, nos últimos anos, a livraria tem enfrentado dificuldades significativas para competir com grandes redes e plataformas de e-commerce que dominam o mercado de livros.
 
-    Foi feita uma pesquisa pelos integrantes do grupo, através do Google Forms, com um público generalizado de 50 cidadãos, com o intuito de obter mais informações em relação ao problema de estrutura e mobilidade. Primeiro, seria necessário entender junto ao público alvo se eles já tiveram algum problema de infraestrutura urbana, os dados levantados estão representados na imagem 1.
-
-Imagem1
-Imagem 1 - Pergunta principal da pesquisa.
-     Buscando rastrear os problemas que os cidadãos mais enfrentam, foram dadas opções ao público e também um campo para que eles tivessem liberdade de inserir novos problemas. Os dados obtidos estão destacados na imagem 2.
-
-Imagem2
-Imagem 2 - Principais problemas apontados pela pesquisa.
-     Para enfim, justificar a ideia do trabalho e dar sequência no mesmo com a certeza do seu sucesso, foi perguntado aos participantes da pesquisa se eles já conseguiram denunciar os problemas relatados de maneira fácil, como 95,6% das pessoas responderam que não, houve a legitimação do projeto.
-
-Imagem3
-Imagem 3 - Verificação da realidade do problema por meio da pesquisa.
 1.2 Problema
 
-    Nos dias atuais, principalmente em países como o Brasil, os cidadãos pagam muitos impostos e esperam um retorno no que diz respeito a estruturas urbanísticas e serviços como saúde, segurança e educação. Porém, na prática, devido aos altos índices de corrupção do país e outros fatores, este dinheiro acaba sendo desviado e a população se sente impotente diante dos problemas, sem conseguir se manifestar de forma efetiva. Desta forma, o problema está situado na falta de uma plataforma na qual, os cidadãos possam se manifestar e assim, poder cobrar das entidades governamentais um retorno dos altos impostos pagos. A outra parte do problema, se trata das figuras públicas, que não conseguem encontrar uma plataforma onde possam divulgar os trabalhos realizados. O Cit, busca possibilitar aos cidadãos fazerem denúncias dos problemas estruturais de suas cidades, por meio do envio de provas(Ex: fotos de buracos no asfalto, rede elétrica no meio de árvores, entre outros.) e informando o endereço do problema. Dessa forma, outros usuários da região, podem assim, votar na existência e correção para aquele transtorno.
+    Em razão de contar com um espaço físico limitado, a Café com Letras sofre com a dificuldade de gerenciar seu estoque e permanecer atrativa ao seu público que, embora afeiçoado pela comunidade em torno da livraria, também é atraído pela variedade e comodidade oferecida pelas grandes lojas virtuais. A falta de uma presença online consolidada significa que a livraria depende quase exclusivamente dos clientes que visitam a loja fisicamente, o que limita suas vendas e alcance de mercado.
 
-    Diante disso, os dados poderão ser visualizados pelas contas que se cadastrarem como entidades aptas a receberem denúncias de problemas das respectivas localizações, como a prefeitura e/ou estado, que poderão corrigi-los, com isso, melhorando a qualidade de vida para todos. E os usuários comuns(os que fazem as denúncias), contam com a função de ver o ranking das melhores cidades, que poderia ser utilizado em diversas formas e ocasiões(Ex: um prefeito seria eleito por meio da divulgação dos seus resultados na cidade.).
+    Além disso, a concorrência acirrada com grandes players do mercado de livros, que oferecem uma vasta seleção de títulos e preços competitivos, tem pressionado ainda mais as margens de lucro da livraria. Por fim, a capacidade limitada de estoque em razão do tamanho da loja faz com que exista uma dificuldade em gerenciar os livros disponíveis e aqueles mais desejados pelos clientes.
+
 
 1.3 Objetivo geral
 
@@ -75,7 +64,7 @@ Imagem 3 - Verificação da realidade do problema por meio da pesquisa.
 ● Criamos algumas personas, para exemplificar o público alvo dos nossos 2 processos.
 
 Primera persona: Cidadão
-Antônio	Antônio Eustáquio	
+Antônio	Antônio Eustáquio
 Eustáquio	Idade: 55 anos
 Ocupação: Caminhoneiro, possui caminhão próprio e trabalha com transporte de carga 5 dias na semana.	Aplicativos:
 * Facebook
@@ -114,3 +103,7 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
 
 Imagem4
 Imagem 4 - Mapa de StakeHolders do Cit.
+
+
+Referências:
+SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil. Disponível em: https://snel.org.br/wp/wp-content/uploads/2023/01/SNEL_13_2022_-_13T_2022.pdf. Acesso em: 23 ago. 2024.
