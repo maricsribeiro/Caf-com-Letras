@@ -53,11 +53,11 @@ Resumo. .
 
 ● Permitir o cadastro de pessoas físicas, que possibilitará a compra de livros.
 
-● Fornecer funcionalidades que permitam a denúncia dos problemas por meio da localização e envio de provas(fotos).
+● Valorizar não somente o produto, mas principalmente o apelo educativo.
 
-● Permitir o cadastro de contas para entidades que receberam e corrigirem os problemas.
+● Incenticar a população ao interesse cultural, em um ambiente de fácil acesso.
 
-● Criação automática de ranking das melhores cidades, por meio dos dados recebidos de problemas solucionados.
+● Socialização entre usuários, através de um ambiente acolhedor.
 
 1.3.2 Público-Alvo
 
