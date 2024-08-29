@@ -38,26 +38,26 @@ Resumo. .
 
     Nesse contexto, a Livraria Café com Letras é uma livraria independente localizada no centro de uma cidade de médio porte. Fundada há mais de duas décadas, a livraria sempre foi um ponto de encontro para leitores apaixonados e um espaço cultural que promove eventos literários, clubes de leitura e lançamentos de livros de autores locais, estabelecendo-se como um verdadeiro espaço de comunidade. No entanto, nos últimos anos, a livraria tem enfrentado dificuldades significativas para competir com grandes redes e plataformas de e-commerce que dominam o mercado de livros.
 
-    1.1.1 Pesquisa
+        1.1.1 Pesquisa
 
-    Foi realizada uma pesquisa pelos integrantes do grupo através de matérias jornalisticas que podem fornecer uma base sólida para discutir as dinâmicas recentes do mercado editorial e como elas impactam livrarias independentes como a Livraria Café com Letras.
+        Foi realizada uma pesquisa pelos integrantes do grupo através de matérias jornalisticas que podem fornecer uma base sólida para discutir as dinâmicas recentes do mercado editorial e como elas impactam livrarias independentes como a Livraria Café com Letras.
 
-    1 Crescimento do Mercado Editorial Brasileiro Pós-Pandemia:
+        1 Crescimento do Mercado Editorial Brasileiro Pós-Pandemia:
 
-        Um estudo do Sindicato Nacional dos Editores de Livros (SNEL), em parceria com a Nielsen Bookscan, revelou que o mercado editorial brasileiro cresceu 8,3% em 2022 em comparação ao ano anterior, com um total de 58,6 milhões de exemplares vendidos. Esse crescimento foi impulsionado, em grande parte, pelas vendas online, que se tornaram um canal crucial para o setor durante e após a pandemia. O relatório destaca que as livrarias exclusivamente virtuais representavam 24,8% do faturamento das editoras em 2020, um salto significativo em relação a 2018​(
-        Metrópoles | O seu portal de notícias, PublishNews).
+            Um estudo do Sindicato Nacional dos Editores de Livros (SNEL), em parceria com a Nielsen Bookscan, revelou que o mercado editorial brasileiro cresceu 8,3% em 2022 em comparação ao ano anterior, com um total de 58,6 milhões de exemplares vendidos. Esse crescimento foi impulsionado, em grande parte, pelas vendas online, que se tornaram um canal crucial para o setor durante e após a pandemia. O relatório destaca que as livrarias exclusivamente virtuais representavam 24,8% do faturamento das editoras em 2020, um salto significativo em relação a 2018​(
+            Metrópoles | O seu portal de notícias, PublishNews).
 
-    2 Mudança no Perfil das Livrarias Físicas:
+        2 Mudança no Perfil das Livrarias Físicas:
 
-        Após a pandemia, houve um ressurgimento das livrarias de rua e de nicho, que estão se estabelecendo como espaços de experiência cultural e interação social. O término da era das megalivrarias abriu espaço para que pequenas livrarias com curadoria especializada e atendimento personalizado ganhassem relevância. Essas livrarias, ao oferecerem eventos culturais e um ambiente convidativo, conseguem criar uma conexão emocional com os clientes, algo que é difícil de replicar nas plataformas de e-commerce​(Correio Braziliense, Metrópoles | O seu portal de notícias).
+            Após a pandemia, houve um ressurgimento das livrarias de rua e de nicho, que estão se estabelecendo como espaços de experiência cultural e interação social. O término da era das megalivrarias abriu espaço para que pequenas livrarias com curadoria especializada e atendimento personalizado ganhassem relevância. Essas livrarias, ao oferecerem eventos culturais e um ambiente convidativo, conseguem criar uma conexão emocional com os clientes, algo que é difícil de replicar nas plataformas de e-commerce​(Correio Braziliense, Metrópoles | O seu portal de notícias).
 
-    3 Impacto da Pandemia nas Vendas de Livros:
+        3 Impacto da Pandemia nas Vendas de Livros:
 
-        A pandemia acelerou a transformação digital no mercado editorial, forçando editoras e livrarias a se adaptarem rapidamente ao comércio eletrônico. Segundo o PublishNews, o crescimento das vendas online já estava em andamento antes da pandemia, mas foi amplificado pela crise das grandes redes de livrarias. Em subsetores como obras gerais, as livrarias exclusivamente virtuais passaram a responder por até 50% do faturamento​(PublishNews).
+            A pandemia acelerou a transformação digital no mercado editorial, forçando editoras e livrarias a se adaptarem rapidamente ao comércio eletrônico. Segundo o PublishNews, o crescimento das vendas online já estava em andamento antes da pandemia, mas foi amplificado pela crise das grandes redes de livrarias. Em subsetores como obras gerais, as livrarias exclusivamente virtuais passaram a responder por até 50% do faturamento​(PublishNews).
 
-    4 Desafios Econômicos e Recuperação do Setor:
+        4 Desafios Econômicos e Recuperação do Setor:
 
-        Apesar do crescimento, o mercado editorial enfrenta desafios, como o alto índice de endividamento das famílias brasileiras e a recuperação lenta da economia. Esses fatores afetam o poder de compra dos consumidores, o que impacta diretamente as vendas de livros. No entanto, subsetores como livros religiosos e didáticos têm mostrado resiliência e adaptação, utilizando novos canais de vendas para manter a relevância no mercado​(PublishNews).
+            Apesar do crescimento, o mercado editorial enfrenta desafios, como o alto índice de endividamento das famílias brasileiras e a recuperação lenta da economia. Esses fatores afetam o poder de compra dos consumidores, o que impacta diretamente as vendas de livros. No entanto, subsetores como livros religiosos e didáticos têm mostrado resiliência e adaptação, utilizando novos canais de vendas para manter a relevância no mercado​(PublishNews).
 
 
 1.2 Problema
