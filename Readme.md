@@ -69,7 +69,7 @@ Resumo. .
 
 1.3 Objetivo geral
 
-    O objetivo da Cit é possibilitar às pessoas denunciarem problemas na infraestrutura das cidades. Efetuando assim, uma divulgação do ranking das melhores cidades, para que haja concorrência de melhora entre elas, por meio de comparações.
+    Elaborar uma solução integrada que permita à Livraria Café com Letras expandir sua presença online, melhorar o gerenciamento de estoque e aumentar a competitividade no mercado.
 
 1.3.1 Objetivos específicos
 
@@ -111,9 +111,7 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
 
 1.4 Justificativas
 
-    É indiscutível que o Brasil apresenta sérios problemas em relação à infraestrutura e mobilidade, diante disso, o Banco Interamericano de Desenvolvimento fez uma pesquisa envolvendo 21 países da América Latina e do Caribe em 2019, que dizia que o Brasil era o país com o menor investimento público em infraestrutura (REFERÊNCIAS 4.1, G1 “Falta de saneamento básico”).
-
-    Adicionalmente, há uma carência de canais de divulgação de problemas de infraestrutura no Brasil, isso influencia muito no agravamento desse problema, pois não existe uma rede integrada de denúncias, que possibilitem os cidadãos lutarem pelos seus direitos. Além do fato de muitas redes municipais não poderem arrumar os problemas, pelo fato de algumas vezes desconhecerem-os.
+    Esse projeto é importante porque a Café com Letras, como muitas livrarias pequenas, precisa se adaptar ao mercado digital para continuar competitiva. Com a criação de uma loja online e melhorias na gestão do estoque, a livraria terá a chance de atrair mais clientes e melhorar suas operações. Além disso, ajudar a livraria a se modernizar também contribui para manter vivo um espaço cultural valioso para a comunidade.
 
 2. Modelo de negócios
 
