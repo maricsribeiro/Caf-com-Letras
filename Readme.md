@@ -114,7 +114,9 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
       Esse projeto é importante porque a Café com Letras, como muitas livrarias pequenas, precisa se adaptar ao mercado digital para continuar competitiva. Com a criação de uma loja online e melhorias na gestão do estoque, a livraria terá a chance de atrair mais clientes e melhorar suas operações. Além disso, ajudar a livraria a se modernizar também contribui para manter vivo um espaço cultural valioso para a comunidade.
 
 2.  Modelo de negócios
+
     2.1 Análise da situação atual (AS-IS)
+    
     Vendas - Atualmente, a loja não oferece vendas online, então o cliente precisa ir até a loja para comprar um livro. O cliente solicita o livro ao vendedor, que verifica a disponibilidade. Se o livro estiver em estoque, a venda é realizada e concluída na hora.
     ![Imagem do fluxo de venda](./assets/images/fluxo_venda.png)
 
@@ -133,7 +135,7 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
 
     ![Imagem do fluxo de cadastro de cliente](./assets/images/fluxo_cadastro_cliente.png)
 
-3.  Participantes do processo
+4.  Participantes do processo
 
     O Mapa de Stakeholder pode ser acessado de forma dinâmica pelo link: https://miro.com/app/board/o9J_knKlYCk=/ . Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela aplicação do Cit. Abaixo está anexada uma versão A4 estática do mapa de stakeholder circle.
 
