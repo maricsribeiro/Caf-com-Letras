@@ -59,13 +59,11 @@ Resumo. .
 
             Apesar do crescimento, o mercado editorial enfrenta desafios, como o alto índice de endividamento das famílias brasileiras e a recuperação lenta da economia. Esses fatores afetam o poder de compra dos consumidores, o que impacta diretamente as vendas de livros. No entanto, subsetores como livros religiosos e didáticos têm mostrado resiliência e adaptação, utilizando novos canais de vendas para manter a relevância no mercado​(PublishNews).
 
-
 1.2 Problema
 
     Em razão de contar com um espaço físico limitado, a Café com Letras sofre com a dificuldade de gerenciar seu estoque e permanecer atrativa ao seu público que, embora afeiçoado pela comunidade em torno da livraria, também é atraído pela variedade e comodidade oferecida pelas grandes lojas virtuais. A falta de uma presença online consolidada significa que a livraria depende quase exclusivamente dos clientes que visitam a loja fisicamente, o que limita suas vendas e alcance de mercado.
 
     Além disso, a concorrência acirrada com grandes players do mercado de livros, que oferecem uma vasta seleção de títulos e preços competitivos, tem pressionado ainda mais as margens de lucro da livraria. Por fim, a capacidade limitada de estoque em razão do tamanho da loja faz com que exista uma dificuldade em gerenciar os livros disponíveis e aqueles mais desejados pelos clientes.
-
 
 1.3 Objetivo geral
 
@@ -86,44 +84,61 @@ Resumo. .
 ● Criamos algumas personas, para exemplificar o público alvo dos nossos 2 processos.
 
 Primera persona: Cidadão
-Antônio	Antônio Eustáquio
-Eustáquio	Idade: 55 anos
-Ocupação: Caminhoneiro, possui caminhão próprio e trabalha com transporte de carga 5 dias na semana.	Aplicativos:
-* Facebook
-* Instagram
-Motivações:
-* Filhos	Frustrações:
-*Falta de dinheiro
-* Falta de canal rápido de denúncia de problemas nas vias públicas	Hobbies
-* Tocar violão
-* Culinária
-A Primera persona: Entidades Governamentais
+Antônio Antônio Eustáquio
+Eustáquio Idade: 55 anos
+Ocupação: Caminhoneiro, possui caminhão próprio e trabalha com transporte de carga 5 dias na semana. Aplicativos:
+
+- Facebook
+- Instagram
+  Motivações:
+- Filhos Frustrações:
+  \*Falta de dinheiro
+- Falta de canal rápido de denúncia de problemas nas vias públicas Hobbies
+- Tocar violão
+- Culinária
+  A Primera persona: Entidades Governamentais
 
 | Fonte: Blog Gran Cursos Online [x], 2020. | Prefeitura Municipal de Belo Horizonte| | ------------- |:-------------:| -----:| | Prefeitura BH |Idade: 123 anos
 Ocupação: Possui diversos setores, inclusive específico para correção de problemas estruturais do município.| Aplicativos:
-* Website
-* Instagram
-* Facebook |Motivações:
-* Resolver problemas dos cidadãos belo horizontinos |Frustrações
-* Falta de dinheiro
-* Não conseguir localizar todos os problemas dos cidadãos |Responsabilidades
-* Cuidar do município no que diz respeito à proteção do patrimônio histórico-cultural, pavimentação das ruas, garantir o bom funcionamento do transporte público, criar creches, conservação do espaço urbano e organização do trânsito.
 
-1.4 Justificativas
+- Website
+- Instagram
+- Facebook |Motivações:
+- Resolver problemas dos cidadãos belo horizontinos |Frustrações
+- Falta de dinheiro
+- Não conseguir localizar todos os problemas dos cidadãos |Responsabilidades
+- Cuidar do município no que diz respeito à proteção do patrimônio histórico-cultural, pavimentação das ruas, garantir o bom funcionamento do transporte público, criar creches, conservação do espaço urbano e organização do trânsito.
 
-    Esse projeto é importante porque a Café com Letras, como muitas livrarias pequenas, precisa se adaptar ao mercado digital para continuar competitiva. Com a criação de uma loja online e melhorias na gestão do estoque, a livraria terá a chance de atrair mais clientes e melhorar suas operações. Além disso, ajudar a livraria a se modernizar também contribui para manter vivo um espaço cultural valioso para a comunidade.
+  1.4 Justificativas
 
-2. Modelo de negócios
+      Esse projeto é importante porque a Café com Letras, como muitas livrarias pequenas, precisa se adaptar ao mercado digital para continuar competitiva. Com a criação de uma loja online e melhorias na gestão do estoque, a livraria terá a chance de atrair mais clientes e melhorar suas operações. Além disso, ajudar a livraria a se modernizar também contribui para manter vivo um espaço cultural valioso para a comunidade.
 
-    O modelo de negócios do Cit foi feito baseado no Business Model Canvas, utilizando a plataforma canvanizer.com, com o objetivo de enxergar o que fazemos, para quem e por que. O quadro canvas está disponível no link: https://canvanizer.com/canvas/rWX4F0MFisLeO
+2.  Modelo de negócios
+    2.1 Análise da situação atual (AS-IS)
+    Vendas - Atualmente, a loja não oferece vendas online, então o cliente precisa ir até a loja para comprar um livro. O cliente solicita o livro ao vendedor, que verifica a disponibilidade. Se o livro estiver em estoque, a venda é realizada e concluída na hora.
+    ![Imagem do fluxo de venda](assets\images\fluxo_venda.png)
 
-3. Participantes do processo
+    Cadastro de Produtos - O cadastro de novos produtos é realizado em uma planilha de Excel. Quando novos livros chegam, a equipe do estoque pesquisa o código ISBN na planilha. Se o ISBN não for encontrado, são adicionadas as seguintes informações:
+
+    - ISBN
+    - Título
+    - Autor
+    - Editora
+
+    Além disso, a quantidade de exemplares recebidos é registrada. Se o ISBN já estiver na planilha, apenas a quantidade de exemplares é atualizada. Em seguida, verifica-se a localização dos livros para garantir que há espaço disponível, e a localização é atualizada conforme necessário.
+
+    ![Imagem do fluxo de cadastro de produtos](assets\images\fluxo_cadastro_livros.png)
+
+    Cadastro de Clientes - O vendedor pergunta se o cliente já possui cadastro. Caso não tenha, o cliente recebe um formulário para preencher com as seguintes informações: nome completo, e-mail, telefone, CPF e endereço. Após o cliente concluir o preenchimento, o vendedor coleta o formulário e insere os dados no sistema.
+
+    ![Imagem do fluxo de cadastro de cliente](assets\images\fluxo_cadastro_cliente.png)
+
+3.  Participantes do processo
 
     O Mapa de Stakeholder pode ser acessado de forma dinâmica pelo link: https://miro.com/app/board/o9J_knKlYCk=/ . Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela aplicação do Cit. Abaixo está anexada uma versão A4 estática do mapa de stakeholder circle.
 
 Imagem4
 Imagem 4 - Mapa de StakeHolders do Cit.
-
 
 Referências:
 SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil. Disponível em: https://snel.org.br/wp/wp-content/uploads/2023/01/SNEL_13_2022_-_13T_2022.pdf. Acesso em: 23 ago. 2024.
