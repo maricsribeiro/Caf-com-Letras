@@ -129,7 +129,7 @@ Imagem 4 - Mapa de StakeHolders do Cit.
 4.1 Análise da situação atual (AS-IS)
     
     Vendas - Atualmente, a loja não oferece vendas online, então o cliente precisa ir até a loja para comprar um livro. O cliente solicita o livro ao vendedor, que verifica a disponibilidade. Se o livro estiver em estoque, a venda é realizada e concluída na hora.
-    ![Imagem do fluxo de venda](./assets/images/fluxo_venda.png)
+![Imagem do fluxo de venda](./assets/images/fluxo_venda.png)
 
     Cadastro de Produtos - O cadastro de novos produtos é realizado em uma planilha de Excel. Quando novos livros chegam, a equipe do estoque pesquisa o código ISBN na planilha. Se o ISBN não for encontrado, são adicionadas as seguintes informações:
 
@@ -140,11 +140,11 @@ Imagem 4 - Mapa de StakeHolders do Cit.
 
     Além disso, a quantidade de exemplares recebidos é registrada. Se o ISBN já estiver na planilha, apenas a quantidade de exemplares é atualizada. Em seguida, verifica-se a localização dos livros para garantir que há espaço disponível, e a localização é atualizada conforme necessário.
 
-    ![Imagem do fluxo de cadastro de produtos](./assets/images/fluxo_cadastro_livros.png)
+![Imagem do fluxo de cadastro de produtos](./assets/images/fluxo_cadastro_livros.png)
 
     Cadastro de Clientes - O vendedor pergunta se o cliente já possui cadastro. Caso não tenha, o cliente recebe um formulário para preencher com as seguintes informações: nome completo, e-mail, telefone, CPF e endereço. Após o cliente concluir o preenchimento, o vendedor coleta o formulário e insere os dados no sistema.
 
-    ![Imagem do fluxo de cadastro de cliente](./assets/images/fluxo_cadastro_cliente.png)
+![Imagem do fluxo de cadastro de cliente](./assets/images/fluxo_cadastro_cliente.png)
 
 Referências:
 SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil. Disponível em: https://snel.org.br/wp/wp-content/uploads/2023/01/SNEL_13_2022_-_13T_2022.pdf. Acesso em: 23 ago. 2024.
