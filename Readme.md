@@ -104,14 +104,14 @@ Potencial Cliente do e-commerce: tem o hábito de leitura e demonstra interesse 
 
 2.  Modelo de negócios
 
-    O modelo de negócios do Café com Letras foi feito com base no Business Model Canvas, utilizando a plataforma canvanizer.com, com o objetivo de enxergar o que fazemos, para quem e por que. O quadro canvas está disponível no link: https://next.canvanizer.com/canvas/rb7oGc87wckvA
+    O modelo de negócios do Café com Letras foi criado com base no Business Model Canvas, utilizando a plataforma canvanizer.com, com o objetivo de visualizar o que fazer, para quem e por que. O quadro está disponível no link: https://next.canvanizer.com/canvas/rb7oGc87wckvA
 
 3.  Participantes do processo
 
-    O Mapa de Stakeholder pode ser acessado de forma dinâmica pelo link: https://miro.com/app/board/o9J_knKlYCk=/ . Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela aplicação do Cit. Abaixo está anexada uma versão A4 estática do mapa de stakeholder circle.
+    O Mapa de Stakeholder foi criado utilizando a plataforma Miro. Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela livraria café com letras. 
 
-Imagem4
-Imagem 4 - Mapa de StakeHolders do Cit.
+    ![Imagem do mapa de stakeholders](./assets/images/Stakeholder_Map.jpg)
+Imagem - Mapa de StakeHolders do Café com Letras.
 
 4. Modelagem do processo de negócio
 
