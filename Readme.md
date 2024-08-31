@@ -115,7 +115,18 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
 
 2.  Modelo de negócios
 
-    2.1 Análise da situação atual (AS-IS)
+    O modelo de negócios do Café com Letras foi feito com base no Business Model Canvas, utilizando a plataforma canvanizer.com, com o objetivo de enxergar o que fazemos, para quem e por que. O quadro canvas está disponível no link: https://next.canvanizer.com/canvas/rb7oGc87wckvA
+
+3.  Participantes do processo
+
+    O Mapa de Stakeholder pode ser acessado de forma dinâmica pelo link: https://miro.com/app/board/o9J_knKlYCk=/ . Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela aplicação do Cit. Abaixo está anexada uma versão A4 estática do mapa de stakeholder circle.
+
+Imagem4
+Imagem 4 - Mapa de StakeHolders do Cit.
+
+4. Modelagem do processo de negócio
+
+4.1 Análise da situação atual (AS-IS)
     
     Vendas - Atualmente, a loja não oferece vendas online, então o cliente precisa ir até a loja para comprar um livro. O cliente solicita o livro ao vendedor, que verifica a disponibilidade. Se o livro estiver em estoque, a venda é realizada e concluída na hora.
     ![Imagem do fluxo de venda](./assets/images/fluxo_venda.png)
@@ -134,13 +145,6 @@ Ocupação: Possui diversos setores, inclusive específico para correção de pr
     Cadastro de Clientes - O vendedor pergunta se o cliente já possui cadastro. Caso não tenha, o cliente recebe um formulário para preencher com as seguintes informações: nome completo, e-mail, telefone, CPF e endereço. Após o cliente concluir o preenchimento, o vendedor coleta o formulário e insere os dados no sistema.
 
     ![Imagem do fluxo de cadastro de cliente](./assets/images/fluxo_cadastro_cliente.png)
-
-4.  Participantes do processo
-
-    O Mapa de Stakeholder pode ser acessado de forma dinâmica pelo link: https://miro.com/app/board/o9J_knKlYCk=/ . Nele foram detectados os principais usuários que utilizaram e/ou foram afetados pela aplicação do Cit. Abaixo está anexada uma versão A4 estática do mapa de stakeholder circle.
-
-Imagem4
-Imagem 4 - Mapa de StakeHolders do Cit.
 
 Referências:
 SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil. Disponível em: https://snel.org.br/wp/wp-content/uploads/2023/01/SNEL_13_2022_-_13T_2022.pdf. Acesso em: 23 ago. 2024.
