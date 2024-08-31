@@ -81,33 +81,22 @@ Resumo. .
 
 1.3.2 Público-Alvo
 
-● Criamos algumas personas, para exemplificar o público alvo dos nossos 2 processos.
+● Criamos algumas personas, para exemplificar o público alvo dos nosso modelo de negócios.
 
-Primera persona: Cidadão
-Antônio Antônio Eustáquio
-Eustáquio Idade: 55 anos
-Ocupação: Caminhoneiro, possui caminhão próprio e trabalha com transporte de carga 5 dias na semana. Aplicativos:
+Primera persona: Fulano da Silva
+Idade: 45 anos 
+Ocupação: Professor de História; leciona nos Ensinos Médio e Fundamental 2
+Cliente da Loja Física: frequenta a livraria em busca de alternativas de livros didáticos e paradidáticos para aplicar em sala de aula
 
-- Facebook
-- Instagram
-  Motivações:
-- Filhos Frustrações:
-  \*Falta de dinheiro
-- Falta de canal rápido de denúncia de problemas nas vias públicas Hobbies
-- Tocar violão
-- Culinária
-  A Primera persona: Entidades Governamentais
+Segunda persona: Siclana Souza
+Idade: 68 anos
+Ocupação: Aposentada
+Cliente da Loja Física: frequenta a livraria em busca de lançamentos e eventos literários. Também consome produtos no café utiliza o espaço para socialização
 
-| Fonte: Blog Gran Cursos Online [x], 2020. | Prefeitura Municipal de Belo Horizonte| | ------------- |:-------------:| -----:| | Prefeitura BH |Idade: 123 anos
-Ocupação: Possui diversos setores, inclusive específico para correção de problemas estruturais do município.| Aplicativos:
-
-- Website
-- Instagram
-- Facebook |Motivações:
-- Resolver problemas dos cidadãos belo horizontinos |Frustrações
-- Falta de dinheiro
-- Não conseguir localizar todos os problemas dos cidadãos |Responsabilidades
-- Cuidar do município no que diz respeito à proteção do patrimônio histórico-cultural, pavimentação das ruas, garantir o bom funcionamento do transporte público, criar creches, conservação do espaço urbano e organização do trânsito.
+Terceira persona: Beltrano de Araújo
+Idade 32 anos
+Ocupação: Bancário
+Potencial Cliente do e-commerce: tem o hábito de leitura e demonstra interesse pela livraria, pois passa em frente ao estabelecimento no seu deslocamento para o trabalho. Porém, prefere a comodidade das compras online e não conseguiu localizar o site da Café com Letras.
 
   1.4 Justificativas
 
