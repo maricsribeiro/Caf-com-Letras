@@ -28,7 +28,7 @@ mariana.sukva.teixeira@gmail.com
 
 rodrigoccattoi@gmail.com
 
-Resumo. .
+Resumo: O projeto da Livraria Café com Letras busca modernizar e expandir a presença online de uma livraria independente, enfrentando os desafios de um espaço físico limitado e a concorrência com grandes plataformas de e-commerce. Com base na análise do mercado editorial pós-pandemia, o projeto visa melhorar o gerenciamento de estoque, ampliar o alcance de mercado através de um e-commerce, e valorizar o espaço como um ponto cultural e social, atraindo diferentes perfis de clientes e fortalecendo a comunidade local.
 
 1. Introdução
 
