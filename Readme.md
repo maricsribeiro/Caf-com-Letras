@@ -117,8 +117,9 @@ Imagem - Mapa de StakeHolders do Café com Letras.
 
 4.1 Análise da situação atual (AS-IS)
     
-    Vendas - Atualmente, a loja não oferece vendas online, então o cliente precisa ir até a loja para comprar um livro. O cliente solicita o livro ao vendedor, que verifica a disponibilidade. Se o livro estiver em estoque, a venda é realizada e concluída na hora.
-![Imagem do fluxo de venda](./assets/images/fluxo_venda.png)
+    Vendas - O processo de compra começa quando o cliente confirma a compra no carrinho. Em seguida, os dados de pagamento são enviados para aprovação. Se o pagamento for aprovado, o estoque é atualizado e o produto é enviado ao cliente, concluindo a venda. Se o pagamento não for aprovado, o cliente é informado sobre a falha e a venda não é realizada.
+
+![Imagem do fluxo de venda](./assets/images/vendas_as_is.png)
 
     Cadastro de Produtos - O cadastro de novos produtos é realizado em uma planilha de Excel. Quando novos livros chegam, a equipe do estoque pesquisa o código ISBN na planilha. Se o ISBN não for encontrado, são adicionadas as seguintes informações:
 
@@ -129,11 +130,29 @@ Imagem - Mapa de StakeHolders do Café com Letras.
 
     Além disso, a quantidade de exemplares recebidos é registrada. Se o ISBN já estiver na planilha, apenas a quantidade de exemplares é atualizada. Em seguida, verifica-se a localização dos livros para garantir que há espaço disponível, e a localização é atualizada conforme necessário.
 
-![Imagem do fluxo de cadastro de produtos](./assets/images/fluxo_cadastro_livros.png)
+![Imagem do fluxo de cadastro de produtos](./assets/images/produtos_as_is.png)
 
-    Cadastro de Clientes - O vendedor pergunta se o cliente já possui cadastro. Caso não tenha, o cliente recebe um formulário para preencher com as seguintes informações: nome completo, e-mail, telefone, CPF e endereço. Após o cliente concluir o preenchimento, o vendedor coleta o formulário e insere os dados no sistema.
+    Cadastro de Clientes - O vendedor pergunta ao cliente se ele já tem cadastro. Em caso positivo, o vendedor consulta os dados do cliente, pergunta se ele quer alterar alguma informação e finaliza o processo. Em caso negativo, o vendedor entrega um formulário em papel para preenchimento e aguarda; após receber o documento preenchido pelo cliente, o vendedor seleciona a tela de criação de cadastro e insere as informações nos respectivos campos.
 
-![Imagem do fluxo de cadastro de cliente](./assets/images/fluxo_cadastro_cliente.png)
+![Imagem do fluxo de cadastro de cliente](./assets/images/clientes_as_is.png)
 
 Referências:
 SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil. Disponível em: https://snel.org.br/wp/wp-content/uploads/2023/01/SNEL_13_2022_-_13T_2022.pdf. Acesso em: 23 ago. 2024.
+
+4.2	Modelagem dos processos aprimorados (TO-BE)
+
+    Vendas - O fluxo de vendas é iniciado quando o usuário faz o checkout no carrinho. Com os dados informados nos formulários, é feita uma requisição para o serviço de pagamentos a fim de verificar a validade do cartão e a disponibilidade de limite para realização do pedido. Caso haja um problema com o meio de pagamento informado, o usuário recebe um e-mail comunicando a falha no pagamento e o processo de venda é encerrado. Caso o pagamento seja processado com sucesso, o usuário recebe um e-mail confirmando o pagamento. O sistema então realiza uma atualização do estoque para dar baixa nos livros incluídos e gera um documento com informações sobre o pedido para auxiliar os colaboradores que irão proceder com o envio. Com o documento gerado, os colaboradores do centro de distribuição separam os livros no estoque e realizam a embalagem para então, por fim, fazer o envio do pedido. Uma vez enviado, o sistema envia um e-mail ao cliente comunicando o envio e a venda é concluída.
+
+![Imagem do fluxo de venda](./assets/images/vendas_to_be.png)
+
+    Cadastro de Produtos - O processo de cadastro e atualização de livros em um sistema de gestão de estoque começa com a pesquisa do ISBN do livro. Ao inserir ou escanear o ISBN, o sistema verifica se o número já está registrado. Caso o ISBN seja encontrado, o sistema automaticamente atualiza o número de exemplares, somando os novos exemplares aos já existentes no estoque.
+    Após essa atualização, o sistema realiza uma verificação automática para confirmar se há espaço disponível na localização atual dos exemplares. Se houver espaço, o sistema mantém os exemplares no mesmo local e atualiza a informação de localização. Porém, se não houver espaço suficiente, o sistema define uma nova localização adequada para os exemplares e registra essas informações automaticamente, sem a necessidade de intervenção manual.
+    Caso o ISBN não seja encontrado no sistema, o livro ainda não foi cadastrado. Nesse caso, o sistema inicia o processo de registro do livro, coletando informações como o ISBN, título, autor e editora. Depois de preencher esses dados, o sistema registra a quantidade dos exemplares e, em seguida, busca uma localização disponível para armazená-los. Assim, o processo é concluído com a localização dos exemplares registrada e atualizada no sistema.
+    Essa automação do processo torna a gestão de estoque de livros mais rápida e eficiente, reduzindo o tempo necessário para o cadastro e a atualização de exemplares e facilitando o trabalho da equipe responsável.
+
+![Imagem do fluxo de cadastro de produtos](./assets/images/produtos_to_be.png)
+
+    Cadastro de Clientes - A etapa de cadastro de usuário no site é necessária para que o cliente possa realizar compras e para que haja um controle maior no momento de gerenciar o envio dos produtos vendidos. 
+    O cliente acessa o site e caso já tenha cadastro no site realiza as etapas de login, podendo dar continuidade a sua navegação. Caso o usuário não possua cadastro, ele deverá preencher os dados na página de cadastro do site com e-mail, senha, dados de endereço, entre outros. Ao clicar em concluir, o sistema valida se não há duplicidade de dados no banco; caso haja o sistema informa que já existe usuário cadastrado e redireciona o mesmo para a página de login. Caso não haja duplicidade, o sistema conclui o cadastro e envia um e-mail para autenticação do cliente. O cliente recebe o e-mail e clica no link de confirmação, sendo redirecionado para o login.
+
+![Imagem do fluxo de cadastro de cliente](./assets/images/clientes_to_be.png)
