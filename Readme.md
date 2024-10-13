@@ -147,11 +147,17 @@ SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil.
 4.2. Impactos da implementação em um banco de dados NoSQL
 
     Dentro do contexto da aplicação do Café com Letras, é válido fazer uma análise da implementação de bancos SQL ou NoSQL a partir dos seguintes tópicos:
+    
 •	Normalização e Consistência: Um banco SQL evita a duplicação de dados através de normalização, ou seja, regras e relacionamentos bem estabelecidos, garantindo que informações críticas, como endereços e dados de pagamento, sejam atualizadas de maneira consistente, diferentemente de NoSQL, que frequentemente desnormaliza os dados, aumentando a complexidade de atualizações e o risco de inconsistências.
+
 •	Performance em Operações Complexas: Embora NoSQL seja mais eficiente em consultas simples, bancos SQL se destacam em operações complexas que envolvem múltiplas entidades relacionadas, como em vendas que incluem diversos produtos. A capacidade de realizar JOINs facilita essas consultas sem sacrificar performance. No contexto da livraria, que é um comércio de bairro no momento da implementação, é uma solução que permite que a escalabilidade seja feita de forma mais tranquila à medida que o negócio se expande.
+
 •	Garantias ACID: O ACID é especialmente importante em um sistema de e-commerce por uma série de fatores, uma vez que as transações precisam ser confiáveis e consistentes, pagamentos devem ser processados de forma segura e precisa, atualizações no estoque e vendas precisam ser corretas e atômicas, entre outros. Embora bancos NoSQL ofereçam velocidade e flexibilidade, eles geralmente sacrificam essas garantias ACID para obter performance e escalabilidade horizontal. No presente caso, onde consistência, integridade de dados e transações confiáveis são essenciais, um banco de dados relacional com suporte a ACID é a melhor escolha para garantir que as operações comerciais ocorram sem erros, falhas ou inconsistências.
+
 •	Escalabilidade e Controle de Transações:  Em um e-commerce como a livraria, a possibilidade de lidar com transações concorrentes é muito importante, o SQL além de conseguir lidar com grandes volumes de dados também facilita a escalabilidade.
+
 •	Integridade e Estruturação: SQL proporciona robustez e confiabilidade nos dados, através das constraints e chaves estrangeiras, essas limitações garante a integridade e a qualidade dos dados disponibilizados no banco.
+
     Portanto, mesmo que bancos NoSQL ofereçam vantagens em termos de velocidade e flexibilidade, o SQL é a escolha mais segura e eficaz para garantir a integridade, consistência e confiabilidade de sistemas que envolvem pagamentos, como o da livraria, que dependem de transações precisas e consistentes.
 
 4.3. Modelo relacional
