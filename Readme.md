@@ -164,3 +164,6 @@ SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil.
 
 ![Imagem do Modelo Relacional](./assets/images/Modelo_Relacional.png)
 
+4.4 Vídeo da Etapa 4
+
+Caso haja alguma dificuldade com o arquivo postado na entrega, segue link: https://youtu.be/l7PrXr1u9p4
