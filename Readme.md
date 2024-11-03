@@ -186,12 +186,11 @@ ORDER BY quantidade_vendida DESC;
 •	Listar os produtos que estão com estoque abaixo do mínimo:
 
 SELECT 
-    p.nome AS produto, 
-    e.quantidade AS quantidade_em_estoque
+   nome, 
+   quantidade_estoque
 FROM 
-    Produto p
-INNER JOIN Estoque e ON p.id_produto = e.id_produto
-WHERE e.quantidade < 10;
+   Produto
+WHERE quantidade_estoque < 10;
 
  •	Listar os clientes que realizaram compras em um determinado período:
 
