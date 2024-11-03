@@ -124,7 +124,7 @@ SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil.
 
     Vendas - O fluxo de vendas é iniciado quando o usuário faz o checkout no carrinho. Com os dados informados nos formulários, é feita uma requisição para o serviço de pagamentos a fim de verificar a validade do cartão e a disponibilidade de limite para realização do pedido. Caso haja um problema com o meio de pagamento informado, o usuário recebe um e-mail comunicando a falha no pagamento e o processo de venda é encerrado. Caso o pagamento seja processado com sucesso, o usuário recebe um e-mail confirmando o pagamento. O sistema então realiza uma atualização do estoque para dar baixa nos livros incluídos e gera um documento com informações sobre o pedido para auxiliar os colaboradores que irão proceder com o envio. Com o documento gerado, os colaboradores do centro de distribuição separam os livros no estoque e realizam a embalagem para então, por fim, fazer o envio do pedido. Uma vez enviado, o sistema envia um e-mail ao cliente comunicando o envio e a venda é concluída.
 
-![Imagem do fluxo de venda](./assets/images/vendas_to_be_v2.png)
+![Imagem do fluxo de venda](./assets/images/vendas_to_be_v3.png)
 
     Cadastro de Produtos - O processo de cadastro e atualização de livros em um sistema de gestão de estoque começa com a pesquisa do ISBN do livro. Ao inserir ou escanear o ISBN, o sistema verifica se o número já está registrado. Caso o ISBN seja encontrado, o sistema automaticamente atualiza o número de exemplares, somando os novos exemplares aos já existentes no estoque.
     Após essa atualização, o sistema realiza uma verificação automática para confirmar se há espaço disponível na localização atual dos exemplares. Se houver espaço, o sistema mantém os exemplares no mesmo local e atualiza a informação de localização. Porém, se não houver espaço suficiente, o sistema define uma nova localização adequada para os exemplares e registra essas informações automaticamente, sem a necessidade de intervenção manual.
@@ -142,7 +142,7 @@ SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil.
 
 4.1. Diagrama de Entidades e Relacionamentos (DER)
 
-![Imagem do Diagrama de Entidades e Relacionamentos](./assets/images/DER.png)
+![Imagem do Diagrama de Entidades e Relacionamentos](./assets/images/DER_v2.png)
 
 4.2. Impactos da implementação em um banco de dados NoSQL
 
@@ -162,8 +162,42 @@ SINDICATO NACIONAL DOS EDITORES DE LIVROS. Painel do Varejo de Livros no Brasil.
 
 4.3. Modelo relacional
 
-![Imagem do Modelo Relacional](./assets/images/Modelo_Relacional.png)
+![Imagem do Modelo Relacional](./assets/images/Modelo_Relacional_v2.png)
 
 4.4 Vídeo da Etapa 3
 
 Caso haja alguma dificuldade com o arquivo postado na entrega da etapa 3, segue link: https://youtu.be/l7PrXr1u9p4
+
+4.5. Consulta SQL
+
+Segue abaixo alguns exemplos de queries em SQL que poderão ser executadas no banco de dados que está sendo modelado:
+
+•	Listar os produtos mais vendidos (por quantidade):
+
+SELECT 
+    p.nome AS produto, 
+    SUM(iv.quantidade) AS quantidade_vendida
+FROM 
+    ItemVenda iv
+INNER JOIN Produto p ON iv.id_produto = p.id_produto
+GROUP BY p.nome
+ORDER BY quantidade_vendida DESC;
+
+•	Listar os produtos que estão com estoque abaixo do mínimo:
+
+SELECT 
+    p.nome AS produto, 
+    e.quantidade AS quantidade_em_estoque
+FROM 
+    Produto p
+INNER JOIN Estoque e ON p.id_produto = e.id_produto
+WHERE e.quantidade < 10;
+
+ •	Listar os clientes que realizaram compras em um determinado período:
+
+SELECT * FROM Cliente
+WHERE id_cliente IN (
+    SELECT id_cliente FROM Venda
+    WHERE data BETWEEN '2024-10-01' AND '2024-10-31'
+);
+
